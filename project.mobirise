@@ -19,11 +19,12 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": []
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 24,
-    "versionPublish": "3.12.1"
+    "versionPublish": "4.2.3"
   },
   "pages": {
     "contact": {
@@ -61,13 +62,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -89,7 +90,13 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#282828",
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#000000",
             "fontSize": "1.35",
             "fontName": {
               "name": "Oswald",
@@ -97,13 +104,7 @@
               "css": "'Oswald', sans-serif"
             },
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -136,23 +137,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-n",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT <br>PLUTO PRODUCTIONS",
           "text": "",
@@ -165,24 +166,24 @@
           "_name": "form1",
           "_anchor": "form1-b",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#ffffff",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "",
           "subtitle": "",
           "form": {
-            "action": "joey@meils.io",
+            "action": "joey.dambrosio@pluto.productions",
             "alerts": {
               "success": "Thanks!  We Hope To Talk Shortly!"
             },
@@ -228,127 +229,15 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2017 Pluto Apps."
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "color": "#ffffff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-g",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#000000",
-            "showMeta": true
-          },
-          "title": "PlutoProductions Phone: (484) 727-8137",
-          "meta": ""
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "color": "#ffffff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-i",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#000000",
-            "showMeta": true
-          },
-          "title": "PlutoProductions: productions@plutoapps.network",
-          "meta": ""
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-k",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": true
-          },
-          "title": "",
-          "meta": ""
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "color": "#ffffff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-h",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#000000",
-            "showMeta": true
-          },
-          "title": "PlutoAudio/Video Studio Phone: (484) 727-8117",
-          "meta": ""
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "color": "#ffffff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-j",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#000000",
-            "showMeta": true
-          },
-          "title": "PlutoAudio/Video Studio: studio@plutoapps.network",
-          "meta": ""
         }
       ]
     },
@@ -391,13 +280,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -419,7 +308,13 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#282828",
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#000000",
             "fontSize": "1.35",
             "fontName": {
               "name": "Oswald",
@@ -427,13 +322,7 @@
               "css": "'Oswald', sans-serif"
             },
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -459,29 +348,6 @@
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-1",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/img-034300003meils-2000x1333.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "PlutoProductions",
-          "text": "PlutoProductions specilizes in the creation of UltraHD video compilations, speciality audio reccordings, and fire web design",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>",
           "_styles": {
             ".mbr-section-title": {
               "font-family": "'Oswald', sans-serif",
@@ -491,7 +357,30 @@
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
-          }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-034300003meils-2000x1333.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.6"
+          },
+          "title": "PlutoProductions",
+          "text": "<span style=\"font-style: normal;\">PlutoProductions specilizes in the creation of UltraHD video compilations, speciality audio reccordings, and fire web design.</span>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_inherit": "header1",
@@ -501,25 +390,25 @@
           "_name": "header4",
           "_anchor": "header4-2",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "showArrow": true,
+            "contentAlign": "right",
+            "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#a07e49",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": true,
             "bgVideo": {
               "width": 1280,
               "height": 720,
               "url": "https://www.youtube.com/embed/nI7Nf3GTJ_k?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": true,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#2b0680",
-            "contentAlign": "right",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "title": "PlutoVideo",
           "text": "UltraHD video editing and production with footage ranging from Aerial to VR/360. &nbsp;Contact us to see what we can do for you.",
@@ -541,23 +430,23 @@
           "_name": "header5",
           "_anchor": "header5-4",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "title": "PlutoAudio",
           "text": "From AppleMusic Mixtapes, to Studio Reccording and Editing Services. &nbsp;PlutoProductions offers it all.",
@@ -579,27 +468,27 @@
           "_name": "pricing-table1",
           "_anchor": "pricing-table1-8",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#303030",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
             "showTitle": true,
             "showSubtitle": true,
             "firstType": "",
-            "showButtons": true,
             "secondType": "bg-primary",
             "thirdType": "",
-            "fourthType": ""
+            "fourthType": "",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#303030",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "title": "PlutoWeb",
           "subtitle": "Modern Design. &nbsp;Wide Compatibility. Extreme Responceiveness.",
@@ -609,7 +498,7 @@
           "currency1": "$",
           "price1": "25",
           "period1": "/mo.",
-          "description1": "Or $200 One Time Fee<br>Hosting and Domain Fees Excluded.",
+          "description1": "Or $300 One Time Fee<br>Hosting and Domain Fees Excluded.",
           "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">20 GB storage</li><li class=\"list-group-item\">1 Page Interactiave Site</li><li class=\"list-group-item\">Unlimited Domain Linking</li></ul>",
           "button1": "<a data-app-btn=\"true\" href=\"contact\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">Contact Us</a>",
           "label2": "",
@@ -618,16 +507,16 @@
           "currency2": "$",
           "price2": "50",
           "period2": "/mo.",
-          "description2": "Or $500 One Time Fee<br>Hosting and Domain Fees Excluded.",
+          "description2": "Or $1,000 One Time Fee<br>Hosting and Domain Fees Excluded.",
           "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">35 GB storage</li><li class=\"list-group-item\">20 Pages Max</li><li class=\"list-group-item\">Unlimited Domain Linking</li></ul>",
           "button2": "<a data-app-btn=\"true\" href=\"contact\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">Contact Us</a>",
           "label3": "HOT!",
-          "title3": "ORGINIZATIONS",
+          "title3": "NON PROFITS",
           "subtitle3": "",
           "currency3": "$",
           "price3": "25",
           "period3": "/mo.",
-          "description3": "Or $150 One TIme Fee.<br>Hosting and Domain Fees Excluded.",
+          "description3": "Or $200 One TIme Fee.<br>Hosting and Domain Fees Excluded.",
           "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">20 GB Tier1 Storage</li><li class=\"list-group-item\">10 Pages</li><li class=\"list-group-item\">Unlimited Domain Linking</li></ul>",
           "button3": "<a data-app-btn=\"true\" href=\"contact\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">Contact Us</a>",
           "label4": "HOT!",
